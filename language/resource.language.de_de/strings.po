@@ -77,7 +77,7 @@ msgctxt "#710"
 msgid ""
 "Configure the Hostname of your @DISTRONAME@ system. This will be used for "
 "the HTPC \\\\hostname in Windows and SMB server name in the Mac OS Finder"
-msgstr "Konfigurieren Sie den Hostnamen Ihres @DISTRONAME@ Systems. Dies wird für den HTPC \\\\Hostnamen in Windows und für den SMB-Servernamen im Mac OS Finder verwendet werden."
+msgstr "Konfigurieren Sie den Hostnamen Ihres @DISTRONAME@-Systems. Dies wird für den HTPC \\\\Hostnamen in Windows und für den SMB-Servernamen im Mac OS Finder verwendet werden."
 
 msgctxt "#711"
 msgid "Configure the 1st keyboard software layout"
@@ -96,7 +96,7 @@ msgid ""
 "@DISTRONAME@ can be configured for automatic or manual updates. Automatic "
 "updates are available on stable releases and stable release candidates. "
 "Automatic update self-disables on beta and development builds"
-msgstr "@DISTRONAME@ kann für automatische oder manuelle Aktualisierungen konfiguriert werden. Automatische Aktualisierungen sind für stabile Releases und Release Candidates für stabile Releases verfügbar. Automatische Aktualisierungen werden für Beta- und Entwickler- Versionen standardmäßig abgeschaltet."
+msgstr "@DISTRONAME@ kann für automatische oder manuelle Aktualisierungen konfiguriert werden. Automatische Aktualisierungen sind für stabile Releases und Release Candidates für stabile Releases verfügbar. Automatische Aktualisierungen werden für Beta- und Entwickler-Versionen standardmäßig abgeschaltet."
 
 msgctxt "#715"
 msgid ""
@@ -122,7 +122,7 @@ msgstr "Auf EIN stellen, um Bluetooth zu aktivieren"
 
 msgctxt "#721"
 msgid "Send CoreELEC debug info without logs to https://paste.coreelec.org, and display the short URL"
-msgstr "CoreELEC-Debuginfos ohne Logs an https://paste.coreelec.org übermitteln und die Kurz-URL anzeigen"
+msgstr "CoreELEC-Debug-Informationen ohne Log-Dateien an https://paste.coreelec.org übermitteln und die Kurz-URL anzeigen"
 
 msgctxt "#722"
 msgid ""
@@ -238,11 +238,11 @@ msgstr "Passwort für SSH setzen"
 
 msgctxt "#747"
 msgid "Enable a PIN for @DISTRONAME@ Settings access"
-msgstr "PIN für den Zugriff auf die @DISTRONAME@ Einstellungen aktivieren"
+msgstr "PIN für den Zugriff auf die @DISTRONAME@-Einstellungen aktivieren"
 
 msgctxt "#748"
 msgid "Change the PIN Lock for @DISTRONAME@ Settings access"
-msgstr "PIN für den Zugriff auf die @DISTRONAME@ Einstellungen ändern"
+msgstr "PIN für den Zugriff auf die @DISTRONAME@-Einstellungen ändern"
 
 msgctxt "#749"
 msgid ""
@@ -332,6 +332,130 @@ msgid ""
 "(defaults to 0 for no timeout). Applies to devices where \"Enable Standby\" "
 "has been activated in the LibreELEC device connection context menu."
 msgstr "Das Leerlauf-Timeout (in Minuten) einstellen, bevor die Geräte getrennt werden (standardmäßig 0 für kein Timeout). Gilt für Geräte, bei denen \"Standby aktivieren\" im Kontextmenü der @DISTRONAME@ Geräteverbindung Menü aktiviert wurde."
+
+msgctxt "#774"
+msgid "Automatic reconnect previously paired device after booting"
+msgstr "Zuvor gekopplete Geräte nach dem Hochfahren automatisch wiederverbinden"
+
+msgctxt "#775"
+msgid "Automatic change audio output to PULSE when a audio device get connected"
+msgstr "Audioausgang automatisch auf PULSE wechseln, wenn ein Audiogerät angeschlossen wird"
+
+msgctxt "#780"
+msgid "Configure hardware settings"
+msgstr "Hardware-Einstellungen konfigurieren"
+
+msgctxt "#781"
+msgid "Set fan mode (off/auto/manual)"
+msgstr "Lüftermodus einstellen (aus/auto/manuell)"
+
+msgctxt "#782"
+msgid "Set fan speed level"
+msgstr "Lüftergeschwindigkeit einstellen"
+
+msgctxt "#785"
+msgid "Modify Vendor Bootloader to support all wake-up features such as CEC, Wake-On-LAN, IR, and GPIO wake-up from suspend or power off state!"
+msgstr "Hersteller-Bootloader modifizieren, um alle Wake-up-Funktionen wie CEC, Wake-On-LAN, IR und GPIO-Wake-up aus dem Bereitschafts- oder Ausschalt-Zustand zu unterstützen!"
+
+msgctxt "#786"
+msgid "Set the IR remote control power button code"
+msgstr "Ein-/Aus-Tastencode für IR-Fernbedienung einstellen"
+
+msgctxt "#787"
+msgid "Enable/Disable Wake-on-LAN"
+msgstr "Wake-on-LAN ein-/auschalten"
+
+msgctxt "#788"
+msgid "Enable/Disable USB Power when device is off/suspend"
+msgstr "USB-Stromversorgung ein-/ausschalten wenn das Gerät ausgeschaltet ist oder sich im Bereitschaftsmodus befindet."
+
+msgctxt "#789"
+msgid "Change device LED behavior"
+msgstr "LED-Einstellung des Gerätes ändern"
+
+msgctxt "#790"
+msgid "Enable/Disable VESA display modes"
+msgstr "VESA-Anzeigemodi ein-/auschalten"
+
+msgctxt "#791"
+msgid "Set CPU governor for all cores"
+msgstr "CPU-Regelung für Kerne einstellen"
+
+msgctxt "#792"
+msgid "Enable/Disable HDD parking on power off/suspend"
+msgstr "Ein-/Auschalten des Festplatten-Parkens bei Ausschalten/Bereitschaft"
+
+msgctxt "#793"
+msgid "Time in seconds to wait for the HDD to spin down when parking"
+msgstr "Zeit in Sekunden, die beim Parken auf das Herunterfahren der Festplatte gewartet wird"
+
+msgctxt "#794"
+msgid "Time in minutes/hours until the HDD should enter suspend mode"
+msgstr "Zeit in Minuten/Stunden, bis die Festplatte in Bereitschaftsmodus wechseln soll."
+
+msgctxt "#795"
+msgid "Select country location."
+msgstr "Land auswählen."
+
+msgctxt "#796"
+msgid "Select your current timezone."
+msgstr "Wähle deine Zeitzone."
+
+msgctxt "#900"
+msgid "Configure eMMC speed mode"
+msgstr "eMMC-Geschindigkeitsmodus konfigurieren"
+
+msgctxt "#901"
+msgid "Configure WiFi SoC SDIO speed"
+msgstr "Geschwindigkeit für WiFi-SoC-SDIO konfigurieren"
+
+msgctxt "#902"
+msgid "Enable/Disable SPI interface"
+msgstr "SPI-Schnittstelle ein-/auscchalten"
+
+msgctxt "#903"
+msgid "Choose IR protocol type for meson-remote"
+msgstr "IR-Protokolltyp für Meson-Fernbedienungen auswählen"
+
+msgctxt "#904"
+msgid "Configure DVB GPIO support"
+msgstr "DVB-GPIO-Unterstützung konfigurieren"
+
+msgctxt "#905"
+msgid "Configure Wired Network Interface"
+msgstr "Kabelgebundene Netzwerkschnittstelle konfigurieren"
+
+msgctxt "#906"
+msgid "Choose if IP1001 is assembled"
+msgstr "Auswählen, wenn IP1001 verbaut ist"
+
+msgctxt "#907"
+msgid "Switch between using the USB3 interface or the PCIE interface on m.2 connector"
+msgstr "Zwischen der Verwendung der USB3-Schnittstelle oder der PCIE-Schnittstelle am m.2-Anschluss umschalten"
+
+msgctxt "#908"
+msgid "Choose assembled Smartchip device"
+msgstr "Verbautes Smartchip-Gerät auswählen"
+
+msgctxt "#909"
+msgid "Set to ON to enable service"
+msgstr "Auf EIN stellen, um den Dienst zu aktivieren"
+
+msgctxt "#910"
+msgid "Set to ON to send invitation to the @DISTRONAME@ developers for remote debugging"
+msgstr "Auf EIN stellen, um eine Einladung für Ferndiagnose an die Entwickler @DISTRONAME@ zu schicken"
+
+msgctxt "#911"
+msgid "Select the SSH key used for access control"
+msgstr "SSH-Schlüssel auswählen, der für die Zugriffssteuerung verwendet werden soll"
+
+msgctxt "#912"
+msgid "Forum username to identify the connection"
+msgstr "Forum-Benutzername zur Identifizierung der Verbindung"
+
+msgctxt "#913"
+msgid "Choose if Motorcomm PHY is assembled"
+msgstr "Auswählen, wenn Motorcomm PHY verbaut ist"
 
 msgctxt "#32001"
 msgid "Services"
@@ -649,11 +773,11 @@ msgstr "PIN-Sperre"
 
 msgctxt "#32193"
 msgid "Enable @DISTRONAME@ Settings PIN Lock"
-msgstr "PIN-Sperre für die @DISTRONAME@ Einstellungen aktivieren"
+msgstr "PIN-Sperre für die @DISTRONAME@-Einstellungen aktivieren"
 
 msgctxt "#32194"
 msgid "Change @DISTRONAME@ Settings PIN Lock"
-msgstr "PIN-Sperre für @DISTRONAME@ Einstellungen ändern"
+msgstr "PIN-Sperre für @DISTRONAME@-Einstellungen ändern"
 
 msgctxt "#32196"
 msgid "About"
@@ -775,15 +899,15 @@ msgstr "Fehler: PINs stimmen nicht überein"
 
 msgctxt "#32229"
 msgid "@DISTRONAME@ Settings PIN lock not set.[CR][CR]Please try again."
-msgstr "PIN-Sperre für die @DISTRONAME@ Einstellungen wurde nicht eingerichtet.[CR][CR]Bitte nochmals versuchen."
+msgstr "PIN-Sperre für die @DISTRONAME@-Einstellungen wurde nicht eingerichtet.[CR][CR]Bitte nochmals versuchen."
 
 msgctxt "#32230"
 msgid "@DISTRONAME@ Settings PIN lock set."
-msgstr "PIN-Sperre für die @DISTRONAME@ Einstellungen eingerichtet."
+msgstr "PIN-Sperre für die @DISTRONAME@-Einstellungen eingerichtet."
 
 msgctxt "#32231"
 msgid "Your @DISTRONAME@ Settings PIN lock has been set to:"
-msgstr "Deine PIN-Sperre für die @DISTRONAME@ Einstellungen wurde eingestellt auf: "
+msgstr "Deine PIN-Sperre für die @DISTRONAME@-Einstellungen wurde eingestellt auf: "
 
 msgctxt "#32232"
 msgid "Error - PIN code not 4 digits!"
@@ -791,7 +915,7 @@ msgstr "Fehler: PIN ist nicht 4-stellig!"
 
 msgctxt "#32233"
 msgid "@DISTRONAME@ Settings Locked[CR]Enter 4 digit PIN"
-msgstr "@DISTRONAME@ Einstellungen gesperrt[CR]4-stellige PIN eingeben"
+msgstr "@DISTRONAME@-Einstellungen gesperrt[CR]4-stellige PIN eingeben"
 
 msgctxt "#32234"
 msgid "Incorrect PIN!"
@@ -809,7 +933,7 @@ msgstr "Du hast zu oft hintereinander eine falsche PIN eingegeben.[CR][CR]Du mus
 
 msgctxt "#32237"
 msgid "@DISTRONAME@ Settings Locked!"
-msgstr "@DISTRONAME@ Einstellungen gesperrt!"
+msgstr "@DISTRONAME@-Einstellungen gesperrt!"
 
 msgctxt "#32238"
 msgid ""
@@ -847,7 +971,7 @@ msgid ""
 "a name.[CR][CR]Try to choose something meaningful - like the room it's in - "
 "so you'll know what it is when you see it on the network.[CR][CR]This name "
 "is used when configuring network services, like file sharing using samba."
-msgstr "Damit die neue @DISTRONAME@ Installation im Netzwerk gefunden werden kann, wird ein Gerätename benötigt.[CR][CR]Wähle eine möglichst aussagekräftigen Namen, wie z.B. den Raum, in dem das Gerät steht.[CR][CR]Dieser Name wird auch für die Konfiguration weiterer Netzwerkdienste, z.B. Dateifreigaben per Samba, benötigt."
+msgstr "Damit die neue @DISTRONAME@-Installation im Netzwerk gefunden werden kann, wird ein Gerätename benötigt.[CR][CR]Wähle eine möglichst aussagekräftigen Namen, wie z.B. den Raum, in dem das Gerät steht.[CR][CR]Dieser Name wird auch für die Konfiguration weiterer Netzwerkdienste, z.B. Dateifreigaben per Samba, benötigt."
 
 msgctxt "#32305"
 msgid "Networking"
@@ -1113,7 +1237,7 @@ msgstr "Das Einstellungs-Addon ist nicht bereit. Versuch es später erneut."
 
 msgctxt "#32391"
 msgid "Upload configs and other debug info without logs, and view the short URL"
-msgstr "Konfigurationen und anderen Debug-Informationen ohne Protokolle hochladen, und Kurz-URL anzeigen"
+msgstr "Konfigurationen und andere Debug-Informationen ohne Log-Dateien hochladen, und Kurz-URL anzeigen"
 
 msgctxt "#32393"
 msgid "** SAFE MODE! ** SAFE MODE! ** SAFE MODE! **"
@@ -1173,7 +1297,7 @@ msgstr "CEC"
 
 msgctxt "#32505"
 msgid "HDD"
-msgstr "HDD"
+msgstr "Festplatte"
 
 msgctxt "#32506"
 msgid "Device Tree"
@@ -1201,7 +1325,7 @@ msgstr "Wake-on-LAN"
 
 msgctxt "#32518"
 msgid "USB Power"
-msgstr "USB-Strom"
+msgstr "USB-Stromversorgung"
 
 msgctxt "#32519"
 msgid "System LED"
@@ -1217,7 +1341,7 @@ msgstr "CPU-Regelung"
 
 msgctxt "#32522"
 msgid "Parking"
-msgstr "Parke"
+msgstr "Parken"
 
 msgctxt "#32523"
 msgid "Parking Time"
@@ -1225,7 +1349,7 @@ msgstr "Park-Zeit"
 
 msgctxt "#32524"
 msgid "Idle Time"
-msgstr "Leeflaufzeit"
+msgstr "Leerlaufzeit"
 
 msgctxt "#32525"
 msgid "eMMC Speed Mode"
@@ -1249,7 +1373,7 @@ msgstr "IR-Protokolltyp"
 
 msgctxt "#32530"
 msgid "DVB GPIO Support"
-msgstr ""
+msgstr "DVB-GPIO-Unterstützung"
 
 msgctxt "#32531"
 msgid "Wired Network Interface"
@@ -1317,7 +1441,7 @@ msgstr "Aktualisierung des BL30 auf der internen eMMC abgeschlossen.[CR]Ein Neus
 
 msgctxt "#33518"
 msgid "Error [%d] has occurred while using the 'inject_BL30' tool![CR]See '/storage/inject_BL30.log' for details."
-msgstr "Fehler [%d] ist während der Ausführung von 'inject_BL30' aufgetreteten![CR]Für Details siehe '/storage/inject_BL30.log'."
+msgstr "Fehler [%d] ist während der Ausführung des Tools 'inject_BL30' aufgetreten![CR]Für Details siehe '/storage/inject_BL30.log'."
 
 msgctxt "#33519"
 msgid "System is not supported by BL30 injection![CR]See '/storage/inject_BL30.log' for details."
@@ -1329,7 +1453,7 @@ msgstr "Eine Aktualisierung des BL30 auf der eMMC ist nicht erforderlich."
 
 msgctxt "#33521"
 msgid "[B][COLOR red]Note: This will remove the BL30 injection on your device.[/COLOR][CR]The injected BL30 bootloader blob will be removed by the backup done automatically before injection.[/B]"
-msgstr "[B][COLOR red]Hinweis: Die BL30-Injection wird dadurch vom Gerät entfernt.[/COLOR][CR]Der injizierte BL30-Bootloader-Blob wird durch das vor der Injektion automatisch durchgeführte Backup entfernt.[/B]"
+msgstr "[B][COLOR red]Hinweis: Die BL30-Injektion wird dadurch vom Gerät entfernt.[/COLOR][CR]Der injizierte BL30-Bootloader-Blob wird durch das vor der Injektion automatisch durchgeführte Backup entfernt.[/B]"
 
 msgctxt "#33522"
 msgid "Finished remove of the BL30 on internal eMMC.[CR]A reboot is now required!"
@@ -1341,7 +1465,7 @@ msgstr "Aktualisierung von /flash/dtb.img abgeschlossen.[CR]Ein Neustart ist nun
 
 msgctxt "#33524"
 msgid "[COLOR red]Are you sure to change this value?[/COLOR][CR]Please enter confirmation code '%s'"
-msgstr "[COLOR red]Bist Du sicher, dieser Wert geändert werden soll?[/COLOR][CR]Bitte gebe diesen Bestätigungscode ein '%s'"
+msgstr "[COLOR red]Bist du sicher, dass dieser Wert geändert werden soll?[/COLOR][CR]Bitte gebe diesen Bestätigungscode ein '%s'"
 
 msgctxt "#33525"
 msgid "Terminal sharing"
@@ -1357,11 +1481,11 @@ msgstr "Einladung an die Entwickler von @DISTRONAME@ schicken"
 
 msgctxt "#33528"
 msgid "Hint: enable this option only when requested by team @DISTRONAME@"
-msgstr "Hinweis: Aktiviere diese Option nur, wenn Du vom Team @DISTRONAME@ dazu aufgefordert wirst"
+msgstr "Hinweis: Aktiviere diese Option nur, wenn du vom Team @DISTRONAME@ dazu aufgefordert wirst"
 
 msgctxt "#33529"
 msgid "Access control key"
-msgstr "Zugriffskontrollschlüssel"
+msgstr "Schlüssel für Zugriffskontrolle"
 
 msgctxt "#33530"
 msgid "Connection name"
