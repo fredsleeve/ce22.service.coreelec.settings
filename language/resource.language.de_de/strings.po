@@ -63,7 +63,7 @@ msgstr "Verfügbare LAN-, Drahtlos- und VPN-Verbindungen konfigurieren"
 
 msgctxt "#703"
 msgid "Configure system services like Samba, SSH, Cron, Avahi and Syslog"
-msgstr "Systemdienste z.B. Samba Dateifreigaben, SSH Fernzugriffe, Cron, Avahi und Syslog konfigurieren"
+msgstr "Systemdienste z.B. Samba-Dateifreigaben, SSH-Fernzugriffe, Cron, Avahi und Syslog konfigurieren"
 
 msgctxt "#704"
 msgid "Configure and pair Bluetooth devices"
@@ -108,13 +108,13 @@ msgctxt "#718"
 msgid ""
 "Send boot config files from /flash, kodi.log, kernel log and Samba configs "
 "to https://paste.coreelec.org, and display the short URL"
-msgstr "Boot-Konfigurationen von /flash, kodi.log, kernel log und Samba-Konfigurationen an https://paste.coreelec.org übermitteln und die Kurz-URL anzeigen"
+msgstr "Boot-Konfigurationen von /flash, kodi.log, Kernel-Log und Samba-Konfigurationen an https://paste.coreelec.org übermitteln und die Kurz-URL anzeigen"
 
 msgctxt "#719"
 msgid ""
 "Send boot config files from /flash, kodi_crash.log, kernel log and Samba "
 "configs to https://paste.coreelec.org, and display the short URL"
-msgstr "Boot-Konfigurationen von /flash, kodi_crash.log, kernel log und Samba-Konfigurationen an https://paste.coreelec.org übermitteln und die Kurz-URL anzeigen"
+msgstr "Boot-Konfigurationen von /flash, kodi_crash.log, Kernel-Log und Samba-Konfigurationen an https://paste.coreelec.org übermitteln und die Kurz-URL anzeigen"
 
 msgctxt "#720"
 msgid "Set to ON to enable the Bluetooth service"
@@ -122,7 +122,7 @@ msgstr "Auf EIN stellen, um Bluetooth zu aktivieren"
 
 msgctxt "#721"
 msgid "Send CoreELEC debug info without logs to https://paste.coreelec.org, and display the short URL"
-msgstr ""
+msgstr "CoreELEC-Debuginfos ohne Logs an https://paste.coreelec.org übermitteln und die Kurz-URL anzeigen"
 
 msgctxt "#722"
 msgid ""
@@ -197,11 +197,10 @@ msgstr "Zeit in Sekunden, um auf eine bestehende Netzwerkverbindung zu warten."
 
 msgctxt "#738"
 msgid "Set to ON to enable the embedded Samba (SMB) filesharing service"
-msgstr "Auf EIN stellen, um den eingebetteten Samba (SMB) Datenfreigabedienst zu aktivieren"
+msgstr "Auf EIN stellen, um den eingebetteten Samba-Datenfreigabedienst (SMB) zu aktivieren"
 
 msgctxt "#739"
-msgid ""
-"Set to ON to require username/password access to local Samba fileshares"
+msgid "Set to ON to require username/password access to local Samba fileshares"
 msgstr "Auf EIN stellen, um beim Zugriff auf lokale Samba-Dateifreigaben einen Benutzernamen/ein Passwort zu benötigen"
 
 msgctxt "#740"
@@ -454,7 +453,7 @@ msgstr "Kabelgebundene Netzwerke"
 
 msgctxt "#32105"
 msgid "Active"
-msgstr "aktiv"
+msgstr "Aktiv"
 
 msgctxt "#32106"
 msgid "Username"
@@ -466,7 +465,7 @@ msgstr "Passwort"
 
 msgctxt "#32108"
 msgid "Enable 'tethered' Wireless Access Point"
-msgstr "WLAN-Acces Point ('tethered') aktivieren"
+msgstr "WLAN-Acces-Point ('tethered') aktivieren"
 
 msgctxt "#32109"
 msgid "Connect Automatically"
@@ -498,11 +497,11 @@ msgstr "Subnetzmaske"
 
 msgctxt "#32116"
 msgid "Default Gateway"
-msgstr "Standard Gateway"
+msgstr "Standard-Gateway"
 
 msgctxt "#32117"
 msgid "Prefix Length"
-msgstr "Prefix Länge"
+msgstr "Prefix-Länge"
 
 msgctxt "#32118"
 msgid "Privacy"
@@ -586,7 +585,7 @@ msgstr "Name des unsichtbaren Funknetzwerkes"
 
 msgctxt "#32147"
 msgid "Wireless Network Passphrase"
-msgstr "WLAN Passwort"
+msgstr "WLAN-Passwort"
 
 msgctxt "#32148"
 msgid "Wireless Network Username"
@@ -674,7 +673,7 @@ msgstr "SSH"
 
 msgctxt "#32202"
 msgid "Use Samba Password Authentication"
-msgstr "Samba-Kennwortauthentifizierung benutzen"
+msgstr "Samba-Kennwortauthentifizierung verwenden"
 
 msgctxt "#32203"
 msgid "Disable SSH Password"
@@ -1032,7 +1031,7 @@ msgstr "Vor dem Start von Kodi auf das Netzwerk warten"
 
 msgctxt "#32370"
 msgid "Maximum Wait Time (Sec.)"
-msgstr "Maximale Wartezeit (Sekunden)"
+msgstr "Maximale Wartezeit (Sek.)"
 
 msgctxt "#32371"
 msgid "Backup"
@@ -1040,7 +1039,7 @@ msgstr "Sichern"
 
 msgctxt "#32372"
 msgid "Create System and Kodi Backup"
-msgstr "System und Kodi Datensicherung erstellen"
+msgstr "System- und Kodi-Datensicherung erstellen"
 
 msgctxt "#32373"
 msgid "Restore Backup"
@@ -1056,11 +1055,11 @@ msgstr "Fehlerbericht (Log) übermitteln"
 
 msgctxt "#32377"
 msgid "Upload latest Kodi log and configs, and view the short URL"
-msgstr "Aktuelle Kodi Log und Konfigurationen übermitteln und die Kurz-URL anzeigen"
+msgstr "Aktuelle Kodi-Log und -Konfigurationen übermitteln und die Kurz-URL anzeigen"
 
 msgctxt "#32378"
 msgid "Upload latest Kodi crash log and configs, and view the short URL"
-msgstr "Aktuelle Kodi Absturz-Log und Konfigurationen übermitteln und die Kurz-URL anzeigen"
+msgstr "Aktuelle Kodi-Absturz-Log und -Konfigurationen übermitteln und die Kurz-URL anzeigen"
 
 msgctxt "#32379"
 msgid "There is not enough free storage space to continue!"
@@ -1102,11 +1101,11 @@ msgstr "Tastaturbelegung Variante 2"
 
 msgctxt "#32388"
 msgid "Enable Standby"
-msgstr "Aktiviere Standby"
+msgstr "Standby aktivieren"
 
 msgctxt "#32389"
 msgid "Disable Standby"
-msgstr "Deaktivere Standby"
+msgstr "Standby deaktiveren"
 
 msgctxt "#32390"
 msgid "Settings addon is not yet ready, please try again later."
@@ -1114,7 +1113,7 @@ msgstr "Das Einstellungs-Addon ist nicht bereit. Versuch es später erneut."
 
 msgctxt "#32391"
 msgid "Upload configs and other debug info without logs, and view the short URL"
-msgstr ""
+msgstr "Konfigurationen und anderen Debug-Informationen ohne Protokolle hochladen, und Kurz-URL anzeigen"
 
 msgctxt "#32393"
 msgid "** SAFE MODE! ** SAFE MODE! ** SAFE MODE! **"
@@ -1143,3 +1142,227 @@ msgstr "Öffentlich"
 msgctxt "#32400"
 msgid "Idle Timeout"
 msgstr "Leerlauf-Timeout"
+
+msgctxt "#32401"
+msgid "Connect paired devices"
+msgstr "Gekoppelte Geräte verbinden"
+
+msgctxt "#32402"
+msgid "Switch audio device on connection"
+msgstr "Audiogerät beim Verbinden umschalten"
+
+msgctxt "#32500"
+msgid "Fan"
+msgstr "Lüfter"
+
+msgctxt "#32501"
+msgid "Power"
+msgstr "Strom"
+
+msgctxt "#32502"
+msgid "Display"
+msgstr "Bildschirm"
+
+msgctxt "#32503"
+msgid "Performance"
+msgstr "Leistung"
+
+msgctxt "#32504"
+msgid "CEC"
+msgstr "CEC"
+
+msgctxt "#32505"
+msgid "HDD"
+msgstr "HDD"
+
+msgctxt "#32506"
+msgid "Device Tree"
+msgstr "Device Tree"
+
+msgctxt "#32510"
+msgid "Fan Mode"
+msgstr "Lüftermodus"
+
+msgctxt "#32511"
+msgid "Speed Level"
+msgstr "Geschwindigkeitsstufe"
+
+msgctxt "#32515"
+msgid "Inject BL30 Blob"
+msgstr "BL30-Blob injizieren"
+
+msgctxt "#32516"
+msgid "IR Remote Power Code"
+msgstr "Power Code IR-Fernbedienung"
+
+msgctxt "#32517"
+msgid "Wake-on-LAN"
+msgstr "Wake-on-LAN"
+
+msgctxt "#32518"
+msgid "USB Power"
+msgstr "USB-Strom"
+
+msgctxt "#32519"
+msgid "System LED"
+msgstr "System-LED"
+
+msgctxt "#32520"
+msgid "VESA modes"
+msgstr "VESA-Modi"
+
+msgctxt "#32521"
+msgid "CPU governor"
+msgstr "CPU-Regelung"
+
+msgctxt "#32522"
+msgid "Parking"
+msgstr "Parke"
+
+msgctxt "#32523"
+msgid "Parking Time"
+msgstr "Park-Zeit"
+
+msgctxt "#32524"
+msgid "Idle Time"
+msgstr "Leeflaufzeit"
+
+msgctxt "#32525"
+msgid "eMMC Speed Mode"
+msgstr "eMMC-Geschdwindigkeitsmodus"
+
+msgctxt "#32526"
+msgid "WiFi SoC SDIO Speed"
+msgstr "WLAN-SoC-SDIO-Geschwindigkeit"
+
+msgctxt "#32527"
+msgid "Red LED"
+msgstr "Rote LED"
+
+msgctxt "#32528"
+msgid "SPI Interface"
+msgstr "SPI-Schnittstelle"
+
+msgctxt "#32529"
+msgid "IR Protocol Type"
+msgstr "IR-Protokolltyp"
+
+msgctxt "#32530"
+msgid "DVB GPIO Support"
+msgstr ""
+
+msgctxt "#32531"
+msgid "Wired Network Interface"
+msgstr "Kabelgebundene Netzwerkschnittstelle"
+
+msgctxt "#32532"
+msgid "Green LED"
+msgstr "Grüne LED"
+
+msgctxt "#32533"
+msgid "IP1001 Ethernet Transceiver"
+msgstr "IP1001-Ethernet-Empfänger"
+
+msgctxt "#32534"
+msgid "VIM3 USB3/PCIE Switch"
+msgstr "VIM3 USB3/PCIE Switch"
+
+msgctxt "#32535"
+msgid "Smartchip WiFi Driver"
+msgstr "Smartchip-WLAN-Treiber"
+
+msgctxt "#32536"
+msgid "Motorcomm Ethernet Transceiver"
+msgstr "Motorcomm-Ethernet-Empfänger"
+
+msgctxt "#32537"
+msgid "Timezone country"
+msgstr "Zeitzone des Landes"
+
+msgctxt "#32538"
+msgid "Timezone"
+msgstr "Zeitzone"
+
+msgctxt "#33510"
+msgid "Warning!"
+msgstr "Warnung!"
+
+msgctxt "#33511"
+msgid "Continue"
+msgstr "Weiter"
+
+msgctxt "#33512"
+msgid "Finished!"
+msgstr "Abgeschlossen!"
+
+msgctxt "#33513"
+msgid "Notice!"
+msgstr "Hinweis!"
+
+msgctxt "#33514"
+msgid "Error!"
+msgstr "Fehler!"
+
+msgctxt "#33515"
+msgid "Inject Bootloader BL30 Blob..."
+msgstr "Bootloader mit BL30-Blob injizieren..."
+
+msgctxt "#33516"
+msgid "[B][COLOR red]Note: This will modify the firmware on your device.[/COLOR][/B][CR]The BL30 bootloader blob has been customized by the CoreELEC Team to support all features used to wake a device from a suspend or power off state!"
+msgstr "[B][COLOR red]Hinweis: Die Firmware auf dem Gerät wird dadurch modifiziert.[/COLOR][/B][CR]Der BL30-Bootloader-Blob wurde vom CoreELEC-Team so angepasst, dass er alle Funktionen unterstützt, die zum Aufwecken eines Geräts aus dem Ruhe- oder Ausschaltzustand benötigt werden!"
+
+msgctxt "#33517"
+msgid "Finished update of the BL30 on internal eMMC.[CR]A reboot is now required!"
+msgstr "Aktualisierung des BL30 auf der internen eMMC abgeschlossen.[CR]Ein Neustart ist nun erforderlich!"
+
+msgctxt "#33518"
+msgid "Error [%d] has occurred while using the 'inject_BL30' tool![CR]See '/storage/inject_BL30.log' for details."
+msgstr "Fehler [%d] ist während der Ausführung von 'inject_BL30' aufgetreteten![CR]Für Details siehe '/storage/inject_BL30.log'."
+
+msgctxt "#33519"
+msgid "System is not supported by BL30 injection![CR]See '/storage/inject_BL30.log' for details."
+msgstr "Das System wird von der BL30-Injektion nicht unterstützt![CR]Für Details siehe '/storage/inject_BL30.log'."
+
+msgctxt "#33520"
+msgid "Update of BL30 on eMMC is not needed."
+msgstr "Eine Aktualisierung des BL30 auf der eMMC ist nicht erforderlich."
+
+msgctxt "#33521"
+msgid "[B][COLOR red]Note: This will remove the BL30 injection on your device.[/COLOR][CR]The injected BL30 bootloader blob will be removed by the backup done automatically before injection.[/B]"
+msgstr "[B][COLOR red]Hinweis: Die BL30-Injection wird dadurch vom Gerät entfernt.[/COLOR][CR]Der injizierte BL30-Bootloader-Blob wird durch das vor der Injektion automatisch durchgeführte Backup entfernt.[/B]"
+
+msgctxt "#33522"
+msgid "Finished remove of the BL30 on internal eMMC.[CR]A reboot is now required!"
+msgstr "Entfernen des BL30 auf der internen eMMC abgeschlossen.[CR]Ein Neustart ist nun erforderlich!"
+
+msgctxt "#33523"
+msgid "Finished update of /flash/dtb.img.[CR]A reboot is now required!"
+msgstr "Aktualisierung von /flash/dtb.img abgeschlossen.[CR]Ein Neustart ist nun erforderlich!"
+
+msgctxt "#33524"
+msgid "[COLOR red]Are you sure to change this value?[/COLOR][CR]Please enter confirmation code '%s'"
+msgstr "[COLOR red]Bist Du sicher, dieser Wert geändert werden soll?[/COLOR][CR]Bitte gebe diesen Bestätigungscode ein '%s'"
+
+msgctxt "#33525"
+msgid "Terminal sharing"
+msgstr "Terminal Sharing"
+
+msgctxt "#33526"
+msgid "Enable terminal sharing"
+msgstr "Gemeinsame Terminal-Nutzung aktivieren"
+
+msgctxt "#33527"
+msgid "Send invitation to @DISTRONAME@ developers"
+msgstr "Einladung an die Entwickler von @DISTRONAME@ schicken"
+
+msgctxt "#33528"
+msgid "Hint: enable this option only when requested by team @DISTRONAME@"
+msgstr "Hinweis: Aktiviere diese Option nur, wenn Du vom Team @DISTRONAME@ dazu aufgefordert wirst"
+
+msgctxt "#33529"
+msgid "Access control key"
+msgstr "Zugriffskontrollschlüssel"
+
+msgctxt "#33530"
+msgid "Connection name"
+msgstr "Verbindungsname"
